@@ -18,6 +18,7 @@
     2. To get the python/conda environment setup, follow these instructions: https://github.com/udacity/Value-based-methods#dependencies
     3. Make sure you have jupyter properly installed, and you may have to get an archived version of pytorch 
     3. Download the environment for Linux: https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip or for Mac: https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana.app.zip
+    4. In the repository directoy root 'mv <path/to/Banana_Linux.zip\> .' 
     4. Run 'conda activate drlnd' 
-    5. In your local directory, 'python run.py "<path/to/banana/environment/executable\>"' to see the trained agent in action
-    6. 'jupyter notebook Navigation.pynb' to run the notebook and train the agent yourself, the resulting parameters will be overwrite checkpoint.pth 
+    5. In your local directory, 'python run.py "./Banana_Linux/Banana.x86_64"' to see the trained agent in action
+    6. 'jupyter notebook Navigation.pynb' to run the notebook and train the agent yourself, the resulting parameters will be overwrite checkpoint.pth. In order to train locally, you will need to change the unity env path in the notebook and skip the first cell! 
